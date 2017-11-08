@@ -1,97 +1,107 @@
 
-*{
-	margin:0;
-	padding: 0;
-	font-family: 'Roboto Slab', serif;
-}
+	*{
+		margin:0;
+		padding: 0;
+		font-family: 'Roboto Slab', serif;
+	}
 
 
-/*1a sección*/
-header{
-	background-color: #6AD2F3;
-	height:100px;
-	color: #FFF;
-    width: 100%;
-    margin-top: 0;
-    position: fixed;
-    z-index: 100;
+	/*1a sección*/
+	header{
+		background-color: #6AD2F3;
+		height:100px;
+		color: #FFF;
+	    width: 100%;
+	    margin-top: 0;
+	    position: fixed;
+	    z-index: 100;
 
-}
+	}
 
-.container {
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 14px;
-	padding-right: 14px;
-}
-
-
-header .container{
-	text-align: center;
-}
-
-.container h1 {
-	margin-top: 25px;
-	font-weight: 400;
-}
+	.container {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 14px;
+		padding-right: 14px;
+	}
 
 
+	header .container{
+		text-align: center;
+	}
 
-/*segunda sección*/
+	.container h1 {
+		margin-top: 25px;
+		font-weight: 400;
+	}
 
 
 
-section{/*Imagen de fondo*/
-	background-image:url(../assets/img/star-trails-by-Christopher-Morrison.jpg); 
-	background-size: cover;
-    padding:50px;
-	height:700px;
-	text-align: center;
-
-	
-}
-
-.containercenter{
-	width: 90%;
-	height: 600px;
-	display:inline-block;
-}
-
-/*Datos Twitter*/
-
-.sidebox{
-	width: 250px;
-	height: auto;
-    color:#000;
-	text-align: center;
-    background-color: #fff;
-    padding:2em;
-    margin-top: 100px;
-
-}
+	/*segunda sección*/
 
 
 
+	section{/*Imagen de fondo*/
+		background-image:url(../assets/img/star-trails-by-Christopher-Morrison.jpg); 
+		background-size: cover;
+	    padding:50px;
+		height:700px;
+		text-align: center;
 
-/*text area*/
+		
+	}
 
-.posts{
-	background-color: #fff;
-	width: 40%;
-	height: 150px;
-	margin-left: 50px;
+	.containercenter{
+		width: 90%;
+		height: 600px;
+		display:inline-block;
+	}
 
-}
+	/*Datos Twitter*/
+
+	.sidebox{
+		width: 250px;
+		height: auto;
+	    color:#000;
+		text-align: center;
+	    background-color: #fff;
+	    padding:2em;
+	    margin-top: 100px;
+
+	}
 
 
 
-#btn {
-	background-color: #6AD2F3;
-	color:#FFF;
-	height: 30px;
-	width:40px;
-}
+
+	/*text area*/
+
+	.posts{
+		background-color: #fff;
+		width: 40%;
+		height: 150px;
+		margin-left: 50px;
+
+	}
 
 
 
+	#btn {
+		background-color: #6AD2F3;
+		color:#FFF;
+		height: 30px;
+		width:50px;
+	}
+
+
+
+	.char-left {
+    text-align: right;
+    color:#6AD2F3 ;
+    font-size: 1em;
+    margin-right: 20px;
+	}
+
+	.warning {
+    color: #c00;
+	}

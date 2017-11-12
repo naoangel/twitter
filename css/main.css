@@ -69,6 +69,7 @@
 	    padding:2em;
 	    margin-top: 100px;
 
+
 	}
 
 
@@ -78,13 +79,19 @@
 
 	.posts{
 		background-color: #fff;
-		width: 40%;
-		height: 150px;
-		margin-left: 50px;
+		width: 55%;
+		height: 180px;
+		margin-top: -290px;
+		margin-left: 450px;
+		padding-top: 25px;
 
 	}
 
-
+	#msg{
+		resize: none;
+		width: 500px;
+		height: 120px;
+	}
 
 	#btn {
 		background-color: #6AD2F3;

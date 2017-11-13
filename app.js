@@ -22,29 +22,47 @@
    nodoTweet = document.createTextNode('tweet')
 
   //ordenar elementos
-  elementTweet.appendChild('tweet');
+  elementTweet.appendChild('nodotweet');
   //agrego el contenido de la caja de texto al elemento p
   tweetBox.appendChild('elementTweet');
-
+  //a la caja de texto le agrego el tweet.
   tweetBox.appendChild('nodotweet');
   //agregando el comentario a su caja personal.
   cont.appendChild('tweetBox');
   //agregando la caja al contenedor de tweets.
 
-  
+
+  //esto debería no permitir que el botón funcione si no hay nada dentro del text area. PEro mi botón no funciona ._.
+  if(tweets.length == 0 || tweets == null){
+    boton.disabled =true;
+  } else{
+    boton.disabled =false;
+  }
 
 })
 
 
-	(function(){
-  var msg = document.getElementsByClassName("msg"
-    |)[0],
-      charLeftLabel = "char-left",
-      charLeft = document.getElementsByClassName(charLeftLabel)[0],
-      maxChar = 140,
-      maxCharWarn = 20;
+(function(){
+var msg = document.getElementById("msg");
+  var counter = document.getElementById('char-left');
+  var counterbox= document.getElementsByClassName("counterbox");
+  var maxChar = 140;
+  var blue = 20;    
+  var red = 10;
+ counter.innerHTML = maxChar;
 
-})();
+ msg.onkeydown = function(){
+        setTimeout(function(){
+counter.innerHTML = maxChar - msg.value.length;
+//cuenta mientras está presionada (abajo) la tecla.
+if (msg.value.length <=20){
+   counter.
+}
+
+
+}
+
+
 
 
 

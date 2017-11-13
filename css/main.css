@@ -101,8 +101,8 @@
 	}
 
 
-
-	.char-left {
+	.
+	#char-left {
     text-align: right;
     color:#6AD2F3 ;
     font-size: 1em;
@@ -111,4 +111,12 @@
 
 	.warning {
     color: #c00;
+	}
+
+
+
+	cont{
+	width: 55%;
+	height: auto;
+	
 	}
